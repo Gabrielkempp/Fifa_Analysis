@@ -28,9 +28,11 @@ st.markdown('# DADOS OFFICIAIS FIFA23!!! ⚽')
 st.sidebar.markdown('Desenvolvido por Gabriel Kempp https://github.com/Gabrielkempp/')
 
 # Criando botao de acesso
-btn = st.button('Acesse os dados no Kaggle')
-if btn:
-    webbrowser.open_new_tab("https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data")
+# btn = st.button('Acesse os dados no Kaggle') # sem deploy
+btn = st.link_button('Acesse os dados no Kaggle', "https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data") # Com deploy
+
+#if btn:
+#    webbrowser.open_new_tab("https://www.kaggle.com/datasets/kevwesophia/fifa23-official-datasetclean-data")
 
 # Informacao sobre os dados
 st.markdown(
