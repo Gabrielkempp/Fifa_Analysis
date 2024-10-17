@@ -37,6 +37,6 @@ st.dataframe(df_filtered[columns],
                 "Joined": st.column_config.Column('Entrada'),
                 "Height(cm.)": st.column_config.Column('Altura(cm)'),
                 "Weight(lbs.)": st.column_config.Column('Peso(lbs)'),
-                "Contract Valid Until": st.column_config.Column('Validade do contrato', format= '%d'),
+                "Contract Valid Until": st.column_config.Column('Validade do contrato'),
                 "Release Clause(£)": st.column_config.Column('Recisão')
              })
